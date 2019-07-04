@@ -101,7 +101,6 @@ body {
 
 #todo .add.active {
     transform: rotateZ(45deg);
-    background: linear-gradient(to bottom, #fff, #ffcaca);
 }
 
 #todo .add:hover {
@@ -261,6 +260,7 @@ body {
     left: 0;
     width: calc(100% - 350px);
     height: 100%;
+    text-align: center;
 }
 
 #links .nav {
@@ -444,6 +444,7 @@ body {
     flex-wrap: wrap;
 }
 
+
 #panels > ul:first-child .links a {
     color: #bfbfbf;
     text-decoration: none;
@@ -502,6 +503,10 @@ body {
     margin-bottom: .5em;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+#panels > ul:not(:first-child) .links {
+	padding: 10%;
 }
 
 #panels > ul:not(:first-child) li {
