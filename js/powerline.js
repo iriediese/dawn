@@ -15,7 +15,7 @@ class Powerline {
       }
     };
 
-    setInterval(() => { $('.time').innerHTML = `${strftime('H')}<span>:${strftime('i')}</span>`; }, 1000);
+    setInterval(() => { $('.time').innerHTML = `<span>${strftime('do\xa0\xa0B\xa0\xa0Y')}\xa0\xa0\xa0</span>${strftime('H:i') }`; }, 1000);
   }
 
   activate(obj, item) {
