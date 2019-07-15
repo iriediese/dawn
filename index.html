@@ -39,7 +39,7 @@
             </cols>
         </div>
         <div id="panels">
-            <ul class="work" active>
+            <ul class="work">
                 <div class="links">
                     <li>
                         <h1>uni</h1>
@@ -72,10 +72,22 @@
 		    <li><a href="https://github.com/">GitHub</a>
 		</div>
             </ul>
-            <ul class="about">
+            <ul class="about" active>
                 <div class="links" id="social">
 			<li><a href="https://github.com/iriediese/dawn">Forked here</a></li>
-			<li><a href="https://github.com/0-l/dawn">Credits to 0-l for dawn</a></li>
+			<li><a href="https://github.com/0-l/dawn">Credits to 0-l for dawn, and to Kory Schneider for tab</a></li>
+			<div id='app' class='tab'>
+				<div id='clock'></div>
+				<input id='input'
+				       type='text'
+				       autofocus
+				       autocomplete='off'
+				       spellcheck='false'
+				       autocapitalize='none'
+				       autocorrect='off'
+				       />
+				<div id='message'></div>
+			</div>
                 </div>
             </ul>
         </div>
@@ -94,6 +106,11 @@
     <script type="text/javascript" src="js/weather.js"></script>
     <script type="text/javascript" src="js/powerline.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/tab.js"></script>
+
+    <!--
     <script type="text/javascript" src="js/search.js"></script>
+    -->
+
 </body>
 </html>
